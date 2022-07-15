@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+			<meta charset = "UTF-8">
+			<meta name="viewport" content="width=device-width">
+			<title>Login</title>
+			<link rel="stylesheet" href="css/reset.css">
+			<link rel="stylesheet" href="css/base.css">
+			<link rel="stylesheet" href="css/cabecalho.css">
+			<link rel="stylesheet" href="css/rodape.css">
+			<link rel="stylesheet" href="css/login.css">
+			<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header class="cabecalho">
+			<img src="img/logo.png" alt="Logo AluraGeek" class="cabecalho__imagem">
+			<input type="texto" id="pesquisa" name="busca_produto" placeholder="Oque você deseja encontrar ?" class="cabecalho__busca"><img src="img/vector.png" alt="Busca" class="cabecalho__busca__imagem">
+			<button class="cabecalho__login"><a href="#">Login</a></button>
+			<img src="img/vector.png" alt="Busca" class="cabecalho__vector">
+		</header>
+		<section class="login">
+			<h1 class="formulario__titulo">Iniciar Sessão</h1>
+			<form action="/formulario-login" class="login__formulario">
+				<input type="text" id="email" placeholder="Escreva seu email" class="input__email">
+				<input type="text" id="senha" placeholder="Escreva sua senha" class="input__senha">
+				<button class="formulario__botao">Entrar</button>
+			</form>
+		</section>
+	</body>
+
+	<footer class="rodape">
+		<img src="img/logo.png" alt="Logo AluraGeek" class="rodape__logo-desktop">
+		<section class="institucional">
+			<img src="img/logo.png" alt="Logo AluraGeek" class="rodape__logo">
+			<p>Quem somos nós</p>
+			<p>Política de privacidade</p>
+			<p>Programa de fidelidade</p>
+			<p>Nossas lojas</p>
+			<p>	Quero ser franqueado</p>
+			<p>Anuncie aqui</p>
+		</section>
+		<section class="formulario">
+			<h1 class="formulario__titulo">Fale conosco</h1>
+			<form action="/formulario-contato" method="post" class="formulario__contato" >
+			    <div>
+			        <input type="texto" id="nome" name="nome_usuario" placeholder="Seu nome" class="formulario__input input__nome">
+			    </div>
+			    <div>
+			        <textarea id="texto" name="texto_usuario" placeholder="Sua mensagem" class="formulario__input input__mensagem"></textarea>
+			    </div>
+			    <button class="formulario__botao">Enviar Mensagem</button>
+			</form>
+		</section>
+	</footer>
+	<section class="direitos">
+			<p>Desenvolvido por Yuri Santos</p>
+			<p>2022</p>
+	</section>
