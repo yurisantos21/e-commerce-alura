@@ -1,0 +1,35 @@
+.destaques {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-image: url(../img/imagem.PNG);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 2.75rem 1rem;
+
+}
+
+.destaques__titulo {
+	color: #fdfdfd;
+	font-size: 2rem;
+	padding-bottom: .5rem;
+}
+
+.destaques__texto {
+	color: #fdfdfd;
+	font-size: 1.2rem;
+	padding-bottom: .5rem;
+}
+
+.destaques__botao {
+	width: 7rem;
+	line-height: 2.65rem;
+	background-color: #2A7AE4;
+	border: none;
+}
+
+.destaques__botao a {
+	color: #fdfdfd;
+	font-size: 1rem;
+}

@@ -1,0 +1,91 @@
+.rodape {
+	margin-top: 2rem;
+	background-color: #EAF2FD;
+}
+
+.institucional {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.institucional p {
+	font-size: 1.2rem;
+}
+
+.rodape__logo-desktop {
+	display: none;
+}
+
+.formulario__titulo {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+	margin-left: .5rem;
+}
+
+.formulario__contato {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.formulario__input {
+	border: none;
+	box-shadow: 0 0 4px 2px #00000020;
+	margin-bottom: 1.5rem;
+	margin-left: 1rem;
+}
+
+.input__nome {
+	max-width: 80%;
+	height: 1.6rem;
+}
+
+.input__mensagem {
+	max-width: 180%;
+	height: 2.5rem;
+}
+
+.formulario__botao {
+	width: 7rem;
+	height: 2.65rem;
+	background-color: #2A7AE4;
+	border: none;
+	color: #fdfdfd;
+	margin-left: 1rem;
+	border-radius: 3px;
+}
+
+.direitos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2rem;
+}
+
+@media (min-width:768px){
+	.rodape {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width:1024px){
+	.rodape {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.rodape__logo-desktop {
+		display: block;
+	}
+
+	.rodape__logo {
+		display: none;
+	}
+
+	}
+}
