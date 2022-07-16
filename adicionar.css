@@ -1,0 +1,44 @@
+.formulario__produto {
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
+
+.formulario__titulo-admin {
+	font-size: 1.4rem;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	margin: 1.5rem;
+}
+
+.admin__form {
+	display: flex;
+	flex-direction: column;
+	margin: ;
+}
+
+.admin__form-input {
+	border: none;
+	border-bottom: 2px solid #A2A2A2;
+	margin-bottom: 1.5rem;
+}
+
+.admin__form-label {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1rem;
+	color: #A2A2A2;
+}
+
+.admin__form-button {
+	height: 3rem;
+	font-family: 'Raleway', sans-serif;
+	color: #fdfdfd;
+	background-color: #2A7AE4;
+}
+
+@media (min-width: 1024px) {
+
+	.formulario__produto {
+		margin-right: 10rem;
+		margin-left: 10rem;
+	} 
+}
